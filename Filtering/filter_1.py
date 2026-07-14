@@ -12,4 +12,4 @@ check_open = df[df["Open"] <=400.00]
 
 # print(bull_stock)
 
-print(check_open)
+print(check_open.to_string())
